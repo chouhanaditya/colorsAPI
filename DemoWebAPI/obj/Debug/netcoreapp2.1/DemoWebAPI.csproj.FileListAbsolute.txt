@@ -1,0 +1,15 @@
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\obj\Debug\netcoreapp2.1\DemoWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\obj\Debug\netcoreapp2.1\DemoWebAPI.AssemblyInfoInputs.cache
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\obj\Debug\netcoreapp2.1\DemoWebAPI.AssemblyInfo.cs
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\bin\Debug\netcoreapp2.1\DemoWebAPI.deps.json
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\bin\Debug\netcoreapp2.1\DemoWebAPI.runtimeconfig.json
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\bin\Debug\netcoreapp2.1\DemoWebAPI.runtimeconfig.dev.json
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\bin\Debug\netcoreapp2.1\DemoWebAPI.dll
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\bin\Debug\netcoreapp2.1\DemoWebAPI.pdb
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\obj\Debug\netcoreapp2.1\DemoWebAPI.RazorAssemblyInfo.cache
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\obj\Debug\netcoreapp2.1\DemoWebAPI.RazorAssemblyInfo.cs
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\obj\Debug\netcoreapp2.1\DemoWebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\obj\Debug\netcoreapp2.1\DemoWebAPI.dll
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\obj\Debug\netcoreapp2.1\DemoWebAPI.pdb
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\DemoWebAPI\obj\Debug\netcoreapp2.1\DemoWebAPI.csprojAssemblyReference.cache

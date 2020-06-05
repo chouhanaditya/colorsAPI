@@ -1,0 +1,9 @@
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Domain\bin\Debug\netcoreapp2.1\Colors.Domain.deps.json
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Domain\bin\Debug\netcoreapp2.1\Colors.Domain.dll
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Domain\bin\Debug\netcoreapp2.1\Colors.Domain.pdb
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Domain\obj\Debug\netcoreapp2.1\Colors.Domain.csproj.CoreCompileInputs.cache
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Domain\obj\Debug\netcoreapp2.1\Colors.Domain.AssemblyInfoInputs.cache
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Domain\obj\Debug\netcoreapp2.1\Colors.Domain.AssemblyInfo.cs
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Domain\obj\Debug\netcoreapp2.1\Colors.Domain.dll
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Domain\obj\Debug\netcoreapp2.1\Colors.Domain.pdb
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Domain\obj\Debug\netcoreapp2.1\Colors.Domain.csprojAssemblyReference.cache

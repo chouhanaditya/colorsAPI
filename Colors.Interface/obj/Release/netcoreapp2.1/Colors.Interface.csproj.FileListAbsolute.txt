@@ -1,0 +1,12 @@
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Interface\bin\Release\netcoreapp2.1\Colors.Interface.deps.json
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Interface\bin\Release\netcoreapp2.1\Colors.Interface.dll
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Interface\bin\Release\netcoreapp2.1\Colors.Interface.pdb
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Interface\bin\Release\netcoreapp2.1\Colors.Domain.dll
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Interface\bin\Release\netcoreapp2.1\Colors.Domain.pdb
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Interface\obj\Release\netcoreapp2.1\Colors.Interface.csprojAssemblyReference.cache
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Interface\obj\Release\netcoreapp2.1\Colors.Interface.csproj.CoreCompileInputs.cache
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Interface\obj\Release\netcoreapp2.1\Colors.Interface.AssemblyInfoInputs.cache
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Interface\obj\Release\netcoreapp2.1\Colors.Interface.AssemblyInfo.cs
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Interface\obj\Release\netcoreapp2.1\Colors.Interface.csproj.CopyComplete
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Interface\obj\Release\netcoreapp2.1\Colors.Interface.dll
+C:\Users\sooryen\Desktop\Personal\Containerization with Docker\DemoWebAPI\Colors.Interface\obj\Release\netcoreapp2.1\Colors.Interface.pdb
