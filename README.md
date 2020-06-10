@@ -1,4 +1,4 @@
-# colorsAPI
+# ColorsAPI
 This is a demo API which performs CRUD operations in attached sample colors.JSON file. This is just a dummy API which I created to
 practice below things-
 
