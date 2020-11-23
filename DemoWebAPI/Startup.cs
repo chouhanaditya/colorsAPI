@@ -15,6 +15,7 @@ using Swashbuckle.AspNetCore.Swagger;
 using Colors.Services;
 using Colors.Interface;
 using Colors.Domain;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace ColorsWebAPI
 {
@@ -30,7 +31,8 @@ namespace ColorsWebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+//            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo{ Title = "Colors API", Version = "v1" });
@@ -38,13 +40,19 @@ namespace ColorsWebAPI
             services.AddSingleton<IColorsServices, ColorsServices>();
             services.AddSingleton<IColorsRepository, ColorsRepository>();
             services.Configure<LocalJSONConfiguration>(Configuration.GetSection("LocalJSON"));
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            .AddJwtBearer(opt =>
+            {
+                opt.Audience = Configuration["AAD:ResourceId"];
+                opt.Authority = $"{Configuration["AAD:Instance"]}{Configuration["AAD:TenantId"]}";
+            });
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
+            if (env.EnvironmentName == "Development")
             {
                 app.UseDeveloperExceptionPage();
             }
@@ -52,15 +60,21 @@ namespace ColorsWebAPI
             {
                 app.UseHsts();
             }
-
-          //  app.UseHttpsRedirection();           
+            app.UseRouting();
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Colors API");
                 c.RoutePrefix = string.Empty;
             });
-            app.UseMvc();
+            app.UseAuthentication();
+            app.UseAuthorization();
+       //     app.UseHttpsRedirection();   
+         
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}");
+            });             
         }
     }
 }

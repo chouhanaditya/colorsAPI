@@ -9,9 +9,11 @@ using Colors.Domain;
 using Colors.Services;
 using Colors.Interface;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ColorsWebAPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ColorsController : ControllerBase

@@ -45,7 +45,7 @@ namespace ColorsWebAPI
                 .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri(configuration["ElasticConfiguration:Uri"]))
                 {
                     AutoRegisterTemplate = true,
-                    IndexFormat = $"C{Assembly.GetExecutingAssembly().GetName().Name.ToLower().Replace(".", "-")}-{environment?.ToLower().Replace(".", "-")}-{DateTime.UtcNow:yyyy-MM}"
+                    IndexFormat = $"{Assembly.GetExecutingAssembly().GetName().Name.ToLower().Replace(".", "-")}-{environment?.ToLower().Replace(".", "-")}-{DateTime.UtcNow:yyyy-MM}"
                 })
                 .Enrich.WithProperty("Environment", environment)
                 .ReadFrom.Configuration(configuration)
