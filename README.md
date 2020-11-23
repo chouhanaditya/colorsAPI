@@ -7,3 +7,4 @@ practice below things-
 3) API demonstrates ideal repository pattern architecture.
 4) Added Docker support and docker image is uploaded on the Docker Hub.
 5) Implemented ELK logging using Serilog.
+6) Added JWT Authentication
